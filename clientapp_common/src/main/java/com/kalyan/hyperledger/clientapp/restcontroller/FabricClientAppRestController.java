@@ -66,8 +66,7 @@ public class FabricClientAppRestController {
 		byte[] ccResult = null;
 		
 		try {
-//			ccResult = contract.submitTransaction("addEmployee", employee.getEmpID(), requestString); // **** Chaincode call
-			ccResult = contract.submitTransaction("addEmployee", employee.getEmpID(), employee.getEmpName(), employee.getDepartment(), Double.toString(employee.getSalary()), employee.getLocation()); // **** Chaincode call
+			ccResult = contract.submitTransaction("addEmployee", employee.getEmpID(), requestString); // **** Chaincode call
 		} catch (ContractException | TimeoutException | InterruptedException e1) {
 			e1.printStackTrace();
 			throw new ChaincodeException(e1.getMessage());
@@ -232,7 +231,7 @@ public class FabricClientAppRestController {
 
 			// Obtain a smart contract deployed on the network.
 			network = gateway.getNetwork("mychannel");
-			contract = network.getContract("couchdb_java_simple"); // chaincode id
+			contract = network.getContract("simple_java_employee_cc"); // chaincode id
 		} catch (Exception e) {
 			e.printStackTrace();
 			throw new ChaincodeException(e.getMessage());

@@ -156,7 +156,7 @@ organizations:
     # this way. The SDK should allow applications to set the org admin identity via APIs, and only use
     # this route as an alternative when it exists.
     adminPrivateKey:
-      path: /home/ubuntu/HLF-Network-Chaincode-ClientApp/network/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore/d7aa19644dd6c1a54cfefcd792e3e062fcfd228b7637ee25e1f4f38c6534fc3f_sk
+      path: /home/ubuntu/HLF-Network-Chaincode-ClientApp/network/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore/9418e15f1114415df0924d41734e7e662ae61da4833dc7d25d3c970e1e38eb85_sk
     signedCert:
       path: /home/ubuntu/HLF-Network-Chaincode-ClientApp/network/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts/Admin@org1.example.com-cert.pem
 
@@ -173,7 +173,7 @@ organizations:
     certificateAuthorities:
       - ca_org2
     adminPrivateKey:
-      path: /home/ubuntu/HLF-Network-Chaincode-ClientApp/network/crypto-config/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/keystore/d0481f7f980e11d8a683831a928f5a62109be3cc5224939c508d384cba90c297_sk
+      path: /home/ubuntu/HLF-Network-Chaincode-ClientApp/network/crypto-config/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/keystore/be57cf2725fb50eebffb412153f72fa40f259cfa6ac0384cfc1141dec849269d_sk
     signedCert:
       path: /home/ubuntu/HLF-Network-Chaincode-ClientApp/network/crypto-config/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/signcerts/Admin@org2.example.com-cert.pem
 
@@ -185,7 +185,7 @@ Org3:
     certificateAuthorities:
       - ca_org3
     adminPrivateKey:
-      path: /home/ubuntu/HLF-Network-Chaincode-ClientApp/network/crypto-config/peerOrganizations/org3.example.com/users/Admin@org3.example.com/msp/keystore/20e2a87a69ec40cd9b0e6ea1d624301052aa642ed6eb3bc717f9755787f5f087_sk
+      path: /home/ubuntu/HLF-Network-Chaincode-ClientApp/network/crypto-config/peerOrganizations/org3.example.com/users/Admin@org3.example.com/msp/keystore/2d7f6adf46f958980f965082239c827ffbde29da910e3c42402c9d56cf0d7787_sk
     signedCert:
       path: /home/ubuntu/HLF-Network-Chaincode-ClientApp/network/crypto-config/peerOrganizations/org3.example.com/users/Admin@org3.example.com/msp/signcerts/Admin@org3.example.com-cert.pem
 
